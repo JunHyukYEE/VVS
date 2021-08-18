@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+import rospy
+from sensor_msgs.msg import LaserScan
+import pyfirmata as pf
+import time
+https://github.com/JunHyukYEE/VVS
+#board = pf.Arduino('/dev/ttyACM0')
+#LeftM = board.get_pin('d:11:s')
+#RightM = board.get_pin('d:12:s')
+
+def callback(msg):
+    if(float(msg.ranges[149])>0.1) and (float(msg.ranges[329])<0.1):
+        if(float(msg.ranges[0])>0.3):
+            print('goL')
+            #LeftM.write(1550)
+            #RightM.write(1550)
+        elif(float(msg.ranges[0])<0.3):
+            print('turn left')
+            #LeftM.write(1550)
+            #RightM.write(1550)    
+    elif(float(msg.ranges[149])<0.1) and (float(msg.ranges[329])>0.1):
+        if(float(msg.ranges[0])>0.3):
+            print('goR')
+            #LeftM.write(1550)
+            #RightM.write(1550)
+        elif(float(msg.ranges[0])<0.3):
+            print('turn right')
+            #LeftM.write(1550)
+            #RightM.write(1550)
+    elif(float(msg.ranges[149])>0.1) and (float(msg.ranges[329])>0.1):
+        if(float(msg.ranges[0])>0.3):
+            print('gogo')
+            #LeftM.write(1550)
+            #RightM.write(1550)
+        elif(float(msg.ranges[0])<0.3):
+            print('turn anywhere')
+            #LeftM.write(1550)
+            #RightM.write(1550)   
+    elif(float(msg.ranges[149])<0.1) and (float(msg.ranges[329])<0.1):
+        if(float(msg.ranges[0])>0.3):
+            print('gogogo')
+            #LeftM.write(1550)
+            #RightM.write(1550)
+        elif(float(msg.ranges[0])<0.3):
+            print('Hmm...')
+            #LeftM.write(1550)
+            #RightM.write(1550)       
+
+rospy.init_node('scan_values')
+sub = rospy.Subscriber('/scan', LaserScan, callback)
+rospy.spin()
