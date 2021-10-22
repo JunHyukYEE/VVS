@@ -1,1 +1,33 @@
-print("hello world")
+[ WARN] [1634891537.607221559]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2874 seconds
+[ WARN] [1634891537.839124307]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3193 seconds
+[ WARN] [1634891538.048253006]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3284 seconds
+[ WARN] [1634891538.048809781]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.6729 seconds
+[ WARN] [1634891538.260151706]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3403 seconds
+[ WARN] [1634891538.482505325]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3626 seconds
+[ WARN] [1634891538.482893867]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4341 seconds
+[ WARN] [1634891538.695619823]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3757 seconds
+[ WARN] [1634891538.922949076]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.4031 seconds
+[ WARN] [1634891538.923380846]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4405 seconds
+[ WARN] [1634891539.134368839]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2114 seconds
+[ WARN] [1634891539.355470620]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2325 seconds
+[ WARN] [1634891539.355958526]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4326 seconds
+[ WARN] [1634891539.566039216]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2431 seconds
+[ WARN] [1634891539.795706456]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2727 seconds
+[ WARN] [1634891539.796130458]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4402 seconds
+[ WARN] [1634891540.012170585]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2892 seconds
+[ WARN] [1634891540.242325906]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3194 seconds
+[ WARN] [1634891540.242775228]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4467 seconds
+[ WARN] [1634891540.470425279]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3475 seconds
+[ WARN] [1634891540.704618728]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3817 seconds
+[ WARN] [1634891540.705021126]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4622 seconds
+[ WARN] [1634891540.931899939]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.4089 seconds
+[ WARN] [1634891540.944516869]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.2395 seconds
+[ WARN] [1634891541.169881418]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2380 seconds
+[ WARN] [1634891541.408236198]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2764 seconds
+[ WARN] [1634891541.627470637]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.2956 seconds
+[ WARN] [1634891541.627860858]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.6834 seconds
+[ WARN] [1634891541.852860140]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3210 seconds
+[ WARN] [1634891542.084840314]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3530 seconds
+[ WARN] [1634891542.085403706]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.4575 seconds
+[ WARN] [1634891542.310745459]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.3789 seconds
+[ WARN] [1634891542.562972991]: Control loop missed its desired rate of 5.0000Hz... the loop actually took 0.4311 seconds
