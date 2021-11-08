@@ -164,5 +164,5 @@ void loop()
   analogWrite(10,0);
   analogWrite(11,0);   
   }
-  delay(2000);
+  delay(100);
 }
