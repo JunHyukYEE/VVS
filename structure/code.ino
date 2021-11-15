@@ -35,9 +35,9 @@ void setup() {
   digitalWrite(11, HIGH); // 2번 펌프 설정
   delay(100);
   analogWrite(10,255); // 잠항을 위한 펌프 동작
-  delay(20000); // n초 동안 동작 후 
+  delay(30000); // n초 동안 동작 후 
   analogWrite(10,0); // 펌프 정지
-  servo.write(70); // 압축산소 분사를 위한 서보모터 동작
+  servo.write(110); // 압축산소 분사를 위한 서보모터 동작
 }
 void loop()
 {
@@ -151,18 +151,18 @@ void loop()
   
   u = constrain(u,-255,255); // 모터 제어 상한값
   if(u>200){
-  analogWrite(10,u);
-  analogWrite(11,0);
+  analogWrite(10,0);
+  analogWrite(11,u);
   }
   
   else if(u<-200){
-  analogWrite(10,0);
-  analogWrite(11,abs(u));
-  errorprevious = error;
+  analogWrite(10,abs(u));
+  analogWrite(11,0);
   }
   else if(u>-200 and u<200){
   analogWrite(10,0);
   analogWrite(11,0);   
   }
+  errorprevious = error;
   delay(100);
 }
