@@ -150,16 +150,16 @@ void loop()
   Serial.println(u);
   
   u = constrain(u,-255,255); // 모터 제어 상한값
-  if(u>200){
+  if(u>100){
   analogWrite(10,0);
   analogWrite(11,u);
   }
   
-  else if(u<-200){
+  else if(u<-100){
   analogWrite(10,abs(u));
   analogWrite(11,0);
   }
-  else if(u>-200 and u<200){
+  else if(u>-100 and u<100){
   analogWrite(10,0);
   analogWrite(11,0);   
   }
