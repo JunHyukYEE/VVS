@@ -149,7 +149,7 @@ void loop()
   u = PP + DD; // 모터 PD제어값
   Serial.println(u);
   
-  u = constrain(u,-255,255); // 모터 제어 상한값
+  u = constrain(u,-250,250); // 모터 제어 상한값
   if(u>100){
   analogWrite(10,0);
   analogWrite(11,u);
