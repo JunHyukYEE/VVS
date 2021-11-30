@@ -37,7 +37,7 @@ void setup() {
   analogWrite(10,255); // 잠항을 위한 펌프 동작
   delay(30000); // n초 동안 동작 후 
   analogWrite(10,0); // 펌프 정지
-  servo.write(110); // 압축산소 분사를 위한 서보모터 동작
+  servo.write(20); // 압축산소 분사를 위한 서보모터 동작
 }
 void loop()
 {
